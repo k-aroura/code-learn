@@ -1,0 +1,21 @@
+//a^b
+
+#include<stdio.h>
+int main()
+{
+    int a, b, c, i;
+    printf("enter num 1:  \n");
+    scanf("%d", &a);
+    printf("enter num 2:  \n");
+    scanf("%d", &b);
+
+    int pow = 1;
+    for (i=1; i<=b; i++)
+    {
+        pow = pow*a;
+    }
+    printf("pow= %d", pow);
+
+    return 0;
+
+}
